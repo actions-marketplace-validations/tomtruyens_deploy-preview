@@ -1,4 +1,4 @@
-name: "Deploy Preview Environment"
+name: "Deploy Preview Environment / test"
 description: "Preview environments for your Docker Compose or Kubernetes applications"
 inputs:
   name:
