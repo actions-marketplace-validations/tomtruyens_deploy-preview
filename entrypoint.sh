@@ -73,7 +73,7 @@ if [ ! -z $GITHUB_TOKEN ]; then
   else
     message=$(/message $name 0)
   fi
-  /notify-pr.sh "$message" $GITHUB_TOKEN
+  /notify-pr.sh "test" $GITHUB_TOKEN
 fi
 
 if [ $ret = 1 ]; then
